@@ -11,91 +11,137 @@
   <p>Data Analyst | SQL • Excel • Power BI</p>
 
   <h2>Projects</h2>
-  # Sdq
-Data Analytics Portfolio
-# 🛒 Walmart Sales Analysis Dashboard – Power BI Project
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sodiq | Data Analytics Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
 
-## 📊 Project Overview
-This project presents an interactive **Walmart Sales Dashboard** built in **Power BI**, supported by data cleaning and preparation in **Excel**.  
-The dashboard reveals business performance metrics such as total revenue, sales trends, customer demographics, and departmental contributions.
+<body>
 
-> 🎯 **Goal:** Transform raw Walmart sales data into insightful and visually compelling analytics for smarter business decisions.
+<header>
+  <h1>Sodiq</h1>
+  <p>Data Analytics Portfolio</p>
+</header>
 
----
+<section>
+  <h2>🛒 Walmart Sales Analysis Dashboard – Power BI Project</h2>
 
-## 🧩 Dataset Description
-The dataset consists of five related tables that together represent Walmart’s sales operations:
+  <h3>📊 Project Overview</h3>
+  <p>
+    This project presents an interactive <strong>Walmart Sales Dashboard</strong>
+    built in <strong>Power BI</strong>, supported by data cleaning and preparation
+    in <strong>Excel</strong>.
+  </p>
+  <p>
+    The dashboard reveals business performance metrics such as total revenue,
+    sales trends, customer demographics, and departmental contributions.
+  </p>
+  <p><strong>Goal:</strong> Transform raw Walmart sales data into insightful and
+    visually compelling analytics for smarter business decisions.</p>
+</section>
 
-| Table | Description |
-|--------|--------------|
-| **Customer** | Contains customer details (name, gender, state, town) |
-| **Sale** | Includes sales transactions (quantity, payment method, date, reference ID) |
-| **Product** | Lists products, prices, and department IDs |
-| **Employee** | Employee details and department assignments |
-| **Department** | Department names and unique IDs |
+<section>
+  <h3>🧩 Dataset Description</h3>
 
----
+  <table>
+    <tr>
+      <th>Table</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <td>Customer</td>
+      <td>Customer details (name, gender, state, town)</td>
+    </tr>
+    <tr>
+      <td>Sale</td>
+      <td>Sales transactions (quantity, payment method, date, reference ID)</td>
+    </tr>
+    <tr>
+      <td>Product</td>
+      <td>Products, prices, and department IDs</td>
+    </tr>
+    <tr>
+      <td>Employee</td>
+      <td>Employee details and department assignments</td>
+    </tr>
+    <tr>
+      <td>Department</td>
+      <td>Department names and unique IDs</td>
+    </tr>
+  </table>
+</section>
 
-## 🧮 Tools & Technologies
-- **Microsoft Excel** → Data cleaning, missing value handling, and transformation  
-- **Power BI** → Data modeling, DAX calculations, and dashboard design  
-- **GitHub Pages** → Hosting portfolio projects  
+<section>
+  <h3>🧮 Tools & Technologies</h3>
+  <ul>
+    <li>Microsoft Excel – Data cleaning and transformation</li>
+    <li>Power BI – Data modeling, DAX, dashboard design</li>
+    <li>GitHub Pages – Portfolio hosting</li>
+  </ul>
+</section>
 
----
+<section>
+  <h3>🧠 Key Skills Demonstrated</h3>
+  <ul>
+    <li>Data cleaning and preparation</li>
+    <li>Building relationships between multiple tables</li>
+    <li>DAX measures for business KPIs</li>
+    <li>Handling missing data transparently</li>
+    <li>Interactive dashboard storytelling</li>
+  </ul>
+</section>
 
-## 🧠 Key Skills Demonstrated
-✅ Data cleaning and preparation in Excel  
-✅ Building relationships between multiple tables in Power BI  
-✅ DAX measures for business KPIs (`SUMX`, `RELATED`, `DISTINCTCOUNT`)  
-✅ Handling missing data with clarity and transparency  
-✅ Designing interactive dashboards for business storytelling  
+<section>
+  <h3>📈 Dashboard Insights</h3>
+  <ul>
+    <li>Total sales reached <strong>$15.75M</strong></li>
+    <li>Top departments: Sports & Outdoors, Clothing</li>
+    <li>Cash and debit cards were the most used payment methods</li>
+    <li>Sales recovery trend visible in 2024</li>
+  </ul>
+</section>
 
----
+<section>
+  <h3>🧾 Dashboard Preview</h3>
+  <img src="images/walmart-dashboard.png" alt="Walmart Dashboard Preview">
+</section>
 
-## 📈 Dashboard Insights
-- Total sales reached **$15.75M**, with top-performing departments including **Sports & Outdoors** and **Clothing**.  
-- **Cash and debit cards** were the most popular payment methods.  
-- Sales showed fluctuations across years, with visible recovery trends in 2024.
-- Gender distribution remained balanced, showing consistent customer engagement.
-  
----
-
-## 🧾 Dashboard Preview
-
-### 💻 Power BI Dashboard<img width="1342" height="742" alt="Screenshot Walmart dashboard" src="https://github.com/user-attachments/assets/a7e2de4e-392b-4844-9e0c-cabf6b76e94f" />
-
-![Dashboard Preview](images/Screenshot Walmart dashboard.png) 
-## 🧰 DAX Measures Used
-
-```DAX
+<section>
+  <h3>🧰 DAX Measures Used</h3>
+  <pre>
 Total Sales = SUMX(Sale, Sale[quantity] * RELATED(Product[price]))
 Total Quantity = SUM(Sale[quantity])
 Unique Customers = DISTINCTCOUNT(Sale[customer_id])
 Average Sales per Customer = DIVIDE([Total Sales], [Unique Customers])
-```
----
+  </pre>
+</section>
 
-### 💼 Business Impact
-
-This project demonstrates how data visualization can help identify top-performing departments, optimize sales strategies, and monitor payment behavior.
-It showcases the ability to clean messy real-world data, establish relational models, and communicate insights that drive business action.
-
----
-
-### 🧑🏽‍💻 About Me
-
-Hi, I’m Sodiq, a Data Analyst skilled in transforming data into business insights using Excel and Power BI.
-I’m passionate about clean data, clear visuals, and impactful storytelling.
-
-
-  <h3>Walmart Sales Analysis (Power BI)</h3>
+<section>
+  <h3>💼 Business Impact</h3>
   <p>
-    Sales analysis dashboard built to identify trends and support
-    business decisions.
+    This project demonstrates how data visualization can identify top-performing
+    departments, optimize sales strategies, and monitor payment behavior.
   </p>
+</section>
+
+<section>
+  <h3>🧑🏽‍💻 About Me</h3>
   <p>
-    <a href= "https://github.com/mustaphasodiq95-dev/Portfolio">View Project</a>
+    Hi, I’m Sodiq, a Data Analyst skilled in transforming data into business
+    insights using Excel and Power BI. I’m passionate about clean data,
+    clear visuals, and impactful storytelling.
   </p>
+</section>
+
+<footer>
+  <p>© 2026 Sodiq | Data Analytics Portfolio</p>
+</footer>
 
 </body>
 </html>
+
+
+
